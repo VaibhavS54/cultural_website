@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import close from './navicons/icons8-close-24.png'
 import menu from './navicons/icons8-menu-24 (2).png'
-import logo from './navicons/logo.png'
+//import logo from './navicons/logo.png'
 
 const Nav = () => {
     let Links =[

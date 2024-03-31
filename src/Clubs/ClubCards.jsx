@@ -11,7 +11,7 @@ const Card = ({ title, description, buttonLabel }) => {
       <span className="flex justify-center mt-auto mb-[1.3rem] mt-[1rem]">
         
         <a
-          href=""
+          href="#linl"
           className="py-2 px-4 rounded-full text-white font-bold bg-gray-500 bg-opacity-40 backdrop-blur-5 hover:bg-gray-800 transition-all duration-200 ease-in-out"
         >
           {buttonLabel}
