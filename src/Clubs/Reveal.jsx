@@ -40,7 +40,7 @@ export const Reveal =({children,width="fit-content"})=>{
                     bottom:4,
                     left:0,
                     right:0,
-                    background: "blue",
+                    background: "#5b21b6",
                     zIndex:20,
                 }}
             />
@@ -90,13 +90,25 @@ export const Reverse =({children,width="fit-content"})=>{
                     bottom:4,
                     left:0,
                     right:0,
-                    background: "blue",
+                    background: "#5b21b6",
                     zIndex:20,
                 }}
             />
 
              
         </div>
+    );
+}
+
+export const Hover=({children,width="fit-content"})=>{
+    return (
+        <motion.div
+            whileHover={{scale:1.3,originX:'40%'}}
+            transition={{type:'spring',stiffness:300}}
+
+        >
+            {children}
+        </motion.div>
     );
 }
 
