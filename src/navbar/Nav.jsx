@@ -2,13 +2,9 @@ import React, { useState } from 'react'
 
 import close from './navicons/icons8-close-24.png'
 import menu from './navicons/icons8-menu-24 (2).png'
-<<<<<<< HEAD
-//import logo from './navicons/logo.png'
-=======
+
 import logo from './navicons/logo.png'
 import { Hover } from '../Clubs/Reveal'
->>>>>>> 4b32f04fa700be38b57b4a7cfbd2d6e6006d48dd
-
 const Nav = () => {
     let Links =[
       {name:"HOME",link:"/"},

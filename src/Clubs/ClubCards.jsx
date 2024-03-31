@@ -11,13 +11,10 @@ const Card = ({ title, description, buttonLabel }) => {
       <span className="flex justify-center  md:mb-[0.6rem] mb-[0.1rem] ">
         
         <a
-<<<<<<< HEAD
-          href="#linl"
-          className="py-2 px-4 rounded-full text-white font-bold bg-gray-500 bg-opacity-40 backdrop-blur-5 hover:bg-gray-800 transition-all duration-200 ease-in-out"
-=======
+
           href="" 
           className="text-[0.7rem] md:text-[1rem] border-1 border-gray-400 py-1.5 px-5 rounded-full text-white font-bold bg-gray-500 bg-opacity-40 backdrop-blur-5 hover:bg-gray-800 transition-all duration-200 ease-in-out"
->>>>>>> 4b32f04fa700be38b57b4a7cfbd2d6e6006d48dd
+
         >
           {buttonLabel} 
         </a>

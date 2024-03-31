@@ -11,10 +11,10 @@ function App() {
   <Nav/>
   
     <Hero/>
-
+    <About/>
    <ClubSection />
 
-   <About/>
+  
   
     <Footer/>
     
