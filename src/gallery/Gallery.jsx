@@ -42,7 +42,7 @@ function Gallery() {
 
   return (
     <div className="bg-slate-900">
-      <h1 className="py-14 text-center font-bold text-4xl ">G A L L E R Y</h1>
+      <h1 className="py-14 text-center font-bold text-4xl text-white ">G A L L E R Y</h1>
       <div className="max-w-[1000px] h-[600px] w-full m-auto py-16 px-4 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
@@ -68,7 +68,7 @@ function Gallery() {
           ))}
         </div>
       </div>
-    </div>
+     </div>
   );
 }
 
