@@ -4,7 +4,7 @@ import { Basic,Basic2 } from '../Clubs/Reveal';
 
 const Hero = () => {
   return (
-    <div class="w-full h-screen">
+    <div id="hero" class="w-full h-screen">
         <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
         <video src={videoBg} autoPlay loop muted class="w-full h-full object-cover"/>
         <div class="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white">
