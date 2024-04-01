@@ -1,10 +1,13 @@
 import React from 'react'
+import { Basic } from '../Clubs/Reveal'
 
 function About() {
   return (
-    <div className="bg-slate-900">
-        <h1 className=" py-7 text-center text-3xl font-bold text-white text-left">ABOUT US</h1>
-        <div className="text-white text-left pl-6 pr-6">
+    <div className="bg-black" id='about'>
+        <Basic>
+        <h1 className="  text-center text-3xl md:text-5xl lg:text-5xl text-3xl mt-20 mb-11 md:mt-32 md:mb-20  font-bold tracking-widest text-white text-left">ABOUT US</h1>
+        </Basic>
+        <div className="text-white text-xl text-left pl-6 pr-6">
             <h3 className=" py-4 ">
                 <p>At Artificium, we believe in celebrating the vibrant tapestry of cultures that intertwine within our college community. Like a kaleidoscope,
                 we offer a mesmerizing array of events and activities that bring people together, fostering connections and friendships that last a lifetime.</p>

@@ -7,8 +7,10 @@ import About from "./about/about";
 import Gallery from "./gallery/Gallery";
 
 function App() {
+
+  
   return (
-    <>
+    <><div className="bg-black">
       <Nav />
 
       <Hero />
@@ -17,6 +19,7 @@ function App() {
       <Gallery />
 
       <Footer />
+      </div>
     </>
   );
 }

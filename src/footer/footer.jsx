@@ -11,7 +11,7 @@ import twitter from "./icons/icons8-twitter-24.png"
 
 const Footer=()=> {
   return (
-    <footer className="relative object-bottom bottom-0 bg-gray-900 text-white sm:w-full
+    <footer id='footer' className="relative object-bottom bottom-0 bg-gray-900 text-white sm:w-full
     ">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 py-7 ">
       

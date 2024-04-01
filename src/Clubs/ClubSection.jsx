@@ -64,9 +64,9 @@ const ClubSection = () => {
 
     return (
         <>
-            <div style={{ backgroundImage: `url('./hello.png')` }} className="bg-black bg-no-repeat bg-center bg-cover pb-11"> 
+            <div id='clubs' style={{ backgroundImage: `url('./hello.png')` }} className="bg-black bg-no-repeat bg-center bg-cover md:bg-contain pb-11 mt-14 lg:mt-40 md:mb-20 lg:mb-24"> 
                 <Reverse>
-                    <h1 class=" text-white flex justify-center   md:text-5xl text-2xl  font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
+                    <h1 class=" text-white flex justify-center   md:text-5xl lg:text-5xl text-3xl  font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
                         ARTIFICIUM CLUBS
                     </h1>
 
