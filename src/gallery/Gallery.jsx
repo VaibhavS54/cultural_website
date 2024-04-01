@@ -35,7 +35,7 @@ const Gallery =()=> {
       repeat:Infinity,
       repeatType:"mirror"
     });
-  },[color,COLORS]);
+  },[]);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
