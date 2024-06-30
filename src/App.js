@@ -6,9 +6,10 @@ import Hero from "./home/hero";
 import About from "./about/about";
 import Gallery from "./gallery/Gallery";
 
+
 function App() {
 
-  
+   
   return (
     <><div className="bg-black">
       <Nav />
@@ -19,6 +20,7 @@ function App() {
       <Gallery />
 
       <Footer />
+     
       </div>
     </>
   );
