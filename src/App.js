@@ -7,6 +7,7 @@ import About from "./about/about";
 import Gallery from "./gallery/Gallery";
 
 
+
 function App() {
 
    
