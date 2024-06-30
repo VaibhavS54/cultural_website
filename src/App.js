@@ -17,7 +17,6 @@ function App() {
       <About />
       <ClubSection />
       <Gallery />
-
       <Footer />
       </div>
     </>
