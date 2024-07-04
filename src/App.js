@@ -17,18 +17,21 @@ function App() {
 
    
   return (
-    <><div className="">
+    <><div className=" bg-black">
       <Nav />
 
       <Hero />
       <About />
       <ClubSection />
       <Gallery />
+
       <Footer />
+
+      
       {/*<ReflectionClubpage/>
       <Samwaad/>
-      <Mysteve/>*/}
-      <InstaPost account="reflection_iiitbh"/>
+      <Mysteve/>
+      <InstaPost account="reflection_iiitbh"/>*/}
       
      
       </div>
