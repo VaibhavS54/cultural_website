@@ -51,10 +51,10 @@ const InstaPost = ({account}) => {
   
   
   
-  <div className='flex justify-center items-center '>
+  <div className='min-w-screen flex justify-center items-center '>
     <InstaDetail account={account}/>
     <div className='m-10 w-[612px] h-[672px] bg-black rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px] rounded-br-[30px] '>
-      <div className='h-[64px]  flex gap-[2.7px] mb-[2px]  '>
+      <div className='h-[64px]  flex gap-[2px] mb-[2px]  '>
         <div
           className={`w-[336px]  flex justify-center items-center ${selectedBox === 'red' ? 'border-b-[5px] border-white  text-white' : 'text-[grey]'
             }`}
