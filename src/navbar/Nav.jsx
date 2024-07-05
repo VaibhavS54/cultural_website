@@ -5,7 +5,9 @@ import menu from './navicons/icons8-menu-24 (2).png'
 
 import logo from './navicons/logo.png'
 import { Hover } from '../Clubs/Reveal'
+import { useNavigate } from 'react-router-dom'
 const Nav = () => {
+  const navigate = useNavigate();
     let Links =[
       {name:"HOME",link:'hero'},
       {name:"ABOUT US",link:"about"},
@@ -21,7 +23,9 @@ const Nav = () => {
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
         <span className=''>
-        <img src={logo} alt="logo" className="h-auto w-9 md:w-14"  />
+        <img src={logo} alt="logo" className="h-auto w-9 md:w-14"  
+          onClick={()=>{navigate('/')}}
+        />
         </span>
       </div>
       

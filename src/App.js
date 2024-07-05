@@ -1,16 +1,15 @@
 import "./App.css";
-import Footer from "./footer/footer";
 import Nav from "./navbar/Nav";
-import ClubSection from "./Clubs/ClubSection";
-import Hero from "./home/hero";
-import About from "./about/about";
-import Gallery from "./gallery/Gallery";
-import InstaPost from "./InstaPost";
-import InstaDetail from "./InstaDetail";
-import ReflectionClubpage from "./ClubComponents/reflectionClubpage";
-import Samwaad from "./ClubComponents/samwaadClubpage";
-import Mysteve from "./ClubComponents/mysteveClubpage";
-
+import Samwaad from './ClubComponents/samwaadClubpage';
+import Sargam from './ClubComponents/sargamClubpage';
+import Gyrate from './ClubComponents/gyrateClubpage';
+import Cinemara from './ClubComponents/cinemaraClubpage';
+import Animeverse from './ClubComponents/animeverseClubpage';
+import ReflectionClubpage from './ClubComponents/reflectionClubpage';
+import Xpressions from './ClubComponents/xpressionClubpage';
+import Mysteve from './ClubComponents/mysteveClubpage';
+import MainPage from "./MainPage";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {
@@ -18,15 +17,23 @@ function App() {
    
   return (
     <><div className=" bg-black">
+      <Router>
       <Nav />
+      
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/reflection" element={<ReflectionClubpage />} />
+        <Route path="/samwaad" element={<Samwaad />} />
+        <Route path="/sargam" element={<Sargam />} />
+        <Route path="/gyrate" element={<Gyrate />} />
+        <Route path="/cinemara" element={<Cinemara />} />
+        <Route path="/animeverse" element={<Animeverse />} />
+        <Route path="/xpressions" element={<Xpressions />} />
+        <Route path="/mysteve" element={<Mysteve />} />
+      </Routes>
+    </Router>
 
-      <Hero />
-      <About />
-      <ClubSection />
-      <Gallery />
-
-      <Footer />
-
+      
       
       {/*<ReflectionClubpage/>
       <Samwaad/>

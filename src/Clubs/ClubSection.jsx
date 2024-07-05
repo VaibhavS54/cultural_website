@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Reveal, Reverse } from './Reveal';
 import Card from './ClubCards';
 
@@ -11,6 +10,7 @@ import Animeverse from '../ClubComponents/animeverseClubpage';
 import ReflectionClubpage from '../ClubComponents/reflectionClubpage';
 import Xpressions from '../ClubComponents/xpressionClubpage';
 import Mysteve from '../ClubComponents/mysteveClubpage';
+import MainPage from '../MainPage';
 
 const cards = [
   {
@@ -66,25 +66,8 @@ const second = [
   },
 ];
 
-const ClubSection = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainSection />} />
-        <Route path="/reflection" element={<ReflectionClubpage />} />
-        <Route path="/samwaad" element={<Samwaad />} />
-        <Route path="/sargam" element={<Sargam />} />
-        <Route path="/gyrate" element={<Gyrate />} />
-        <Route path="/cinemara" element={<Cinemara />} />
-        <Route path="/animeverse" element={<Animeverse />} />
-        <Route path="/xpressions" element={<Xpressions />} />
-        <Route path="/mysteve" element={<Mysteve />} />
-      </Routes>
-    </Router>
-  );
-};
 
-const MainSection = () => (
+const ClubSection = () => (
   <div id='clubs' style={{ backgroundImage: `url('./hello.png')` }} className="bg-black bg-no-repeat bg-center bg-cover md:bg-contain pb-11 mt-14 lg:mt-40 md:mb-20 lg:mb-24">
     <Reverse>
       <h1 className="text-white flex justify-center md:text-5xl lg:text-5xl text-3xl font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
