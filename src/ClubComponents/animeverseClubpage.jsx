@@ -13,7 +13,7 @@ const Animeverse = () => {
   const Clubname="ANIMEVERSE" ;
   const Clubabout1="Mysteve - Where creativity thrives and imaginations soar, uniting artists ";
   const Clubabout2="to explore and express their unique visions.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="AnimeVerse is the animation club of IIIT Bhagalpur which was created to teach students the basic skills of digital animation and digital arts and the club fosters interest in field of 3D modeling and designing in young minds and help them to exile in that field.We specialize in using cutting-edge tools like Blender and Unreal Engine to bring our imagination to life through captivating projects, 3D scenes, and short videos. Whether you're a seasoned animator or just starting out, our club offers a dynamic environment to explore and master the art of animation.";
   const club_leads = [
     {
       id: 1,

@@ -12,7 +12,7 @@ const Samwaad = () => {
   const Clubname="SAMWAAD" ;
   const Clubabout1="Samwaad - Where stories come alive and voices unite, bringing literary ";
   const Clubabout2="enthusiasts together to explore and express their imaginations.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="Samwaad, the vibrant literature club of our college, where words come to life and creativity knows no bounds. At Samwaad, we are dedicated to fostering a love for literature, encouraging intellectual growth, and providing a platform for self-expression through a variety of engaging events throughout the year.Samwaad celebrates the beauty of words, the power of expression, and the joy of literary exploration. Whether you are a poet, a storyteller, a debater, or simply a lover of literature, Samwaad has something for everyone.";
   const club_leads = [
     {
       id: 1,

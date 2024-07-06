@@ -13,7 +13,7 @@ const Sargam = () => {
   const Clubname="SARGAM" ;
   const Clubabout1="Mysteve - Where creativity thrives and imaginations soar, uniting artists ";
   const Clubabout2="to explore and express their unique visions.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="Tarang-Sargam is the Music and Singing club of IIIT Bhagalpur which focuses on bringing the tremendous talent of singing and music from the freshmen every year and helps the interested students to learn new things and embrace the beauty of the musical world. It plays an important role in all the college fests and events.";
   const club_leads = [
     {
       id: 1,

@@ -13,7 +13,7 @@ const Gyrate = () => {
   const Clubname="GYRATE" ;
   const Clubabout1="Mysteve - Where creativity thrives and imaginations soar, uniting artists ";
   const Clubabout2="to explore and express their unique visions.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="Welcome to Gyrate,the ultimate dance club at IIIT Bhagalpur where rhythm meets passion! Whether you're a seasoned dancer or just starting out, Gyrate offers a vibrant community where you can explore various dance styles, showcase your talent, and unleash your creativity on the dance floor. With electrifying events, professional workshops, and a supportive atmosphere, Gyrate is the perfect place for freshers to make new friends, learn new moves, and create unforgettable memories. Join us and let your spirit soar as we gyrate to the beat of life!";
   const club_leads = [
     {
       id: 1,

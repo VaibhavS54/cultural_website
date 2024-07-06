@@ -13,7 +13,7 @@ const Xpressions = () => {
   const Clubname="Xpressions" ;
   const Clubabout1="Mysteve - Where creativity thrives and imaginations soar, uniting artists ";
   const Clubabout2="to explore and express their unique visions.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="Welcome to Xpressionn, the most vibrant and creative drama club at IIIT Bhagalpur. Xpressionn is a platform where art, acting, and emotions unite in a beautiful harmony.The primary goal of Xpressionn is to provide students at IIIT Bhagalpur with a platform to showcase their artistic and acting skills. We believe that every individual has an artist within them, and we strive to bring that artist to the forefront.";
   const club_leads = [
     {
       id: 1,

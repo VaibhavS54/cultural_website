@@ -13,7 +13,7 @@ const Cinemara = () => {
   const Clubname="CINEMARA" ;
   const Clubabout1="Mysteve - Where creativity thrives and imaginations soar, uniting artists ";
   const Clubabout2="to explore and express their unique visions.";
-  const Club_text="Reflection - The Photography Club, IIIT Bhagalpur (IIITBH), is a group of like-minded members of the IIITBH community, including mostly students, faculty members, and staff, who express their love and passion for photography. They capture beautiful moments and express their feelings through photographs. The club members are mostly amateur photographers who come together to help each other learn the art of photography and pursue it as an interesting hobby. Reflection has been an integral part of IIIT Bhagalpur's cultural scene for the last 6-7 years.";
+  const Club_text="Cinemara is the Cinematography Club of IIIT Bhagalpur which focuses on the diverse skills of video and audio processing and editing and enhancing the captured moments through cinematic piece. It helps the students to acquire the skills of video recording and editing.";
   const club_leads = [
     {
       id: 1,
