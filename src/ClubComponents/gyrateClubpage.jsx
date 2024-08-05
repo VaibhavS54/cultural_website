@@ -44,7 +44,7 @@ const Gyrate = () => {
     
     
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-900 to-gray-800">
+    <div className="min-h-screen bg-#202020">
     
       <Clubhome
       Logo={ClubLogo}
@@ -57,7 +57,7 @@ const Gyrate = () => {
         people={club_leads}
         events={club_events}/>
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
-        <InstaPost account="reflection_iiitbh"/>
+        <InstaPost account="gyrate_iiitbh"/>
         </div>
     </div>
   )

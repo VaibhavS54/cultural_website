@@ -43,7 +43,7 @@ const Samwaad = () => {
     
     
   return (
-    <div className="min-h-screen bg-gradient-to-r from-gray-900 to-gray-800">
+    <div className="min-h-screen bg-#202020">
     
       <Clubhome
       Logo={ClubLogo}
@@ -57,7 +57,7 @@ const Samwaad = () => {
         people={club_leads}
         events={club_events}/>
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
-        <InstaPost account="reflection_iiitbh"/>
+        <InstaPost account="samwaad_iiitbh"/>
         </div>
     </div>
   )
