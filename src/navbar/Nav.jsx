@@ -12,7 +12,7 @@ const Nav = () => {
       {name:"HOME",link:'hero'},
       {name:"ABOUT US",link:"about"},
       {name:"CLUBS",link:"clubs"},
-      {name:"EVENTS",link:"/"},
+      {name:"EVENTS",link:"events"},
       {name:"CONTACT US",link:"footer"},
       {name:"GALLERY",link:"gallery"},
     ];
@@ -23,7 +23,7 @@ const Nav = () => {
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-gray-800'>
         <span className=''>
-        <img src={logo} alt="logo" className="h-auto w-9 md:w-14"  
+        <img src={logo} alt="logo" className="h-auto pointer w-9 md:w-14"  
           onClick={()=>{navigate('/')}}
         />
         </span>

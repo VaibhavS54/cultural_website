@@ -7,7 +7,7 @@ import image from './drum kit.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
 import AboutUs from './About';
-
+import { useEffect } from 'react';
 
 const Cinemara = () => {
   const Clubname="CINEMARA" ;
@@ -41,7 +41,12 @@ const Cinemara = () => {
       description2: 'Storytelling through captivating photographs competitiojn (members will)',
 
     } ];
-    
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },[]);
     
   return (
     <div className="min-h-screen bg-#202020">

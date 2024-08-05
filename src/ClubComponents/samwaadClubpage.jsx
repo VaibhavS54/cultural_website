@@ -5,6 +5,7 @@ import ClubLogo from './samwal final logo.jpg';
 import image from './pink book.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
+import { useEffect } from 'react';
 import AboutUs from './About';
 
 
@@ -40,6 +41,12 @@ const Samwaad = () => {
       description2: 'Storytelling through captivating photographs competitiojn (members will)',
 
     } ];
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },[]);
     
     
   return (

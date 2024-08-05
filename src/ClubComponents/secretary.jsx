@@ -8,7 +8,7 @@ import star2 from './star2.png'
 const Secretary  = ({ people, events }) => {
     
   return (
-    <div className="sec">
+    <div id='events' className="sec">
       <img src={star1} className='top-left-star1'/>
       <img src={star2} className='top-left-star2'/>
       <img src={star1} className='top-right-star1'/>

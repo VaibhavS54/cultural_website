@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import Secretary from './secretary';
 import InstaPost from '../InstaPost';
@@ -42,8 +42,14 @@ const ReflectionClubpage = () => {
 
     } ];
     
-    
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },[]);
   return (
+    
     <div className="min-h-screen bg-#202020">
     
       <Clubhome

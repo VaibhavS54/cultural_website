@@ -7,7 +7,7 @@ import image from './paint brush.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
 import AboutUs from './About';
-
+import { useEffect } from 'react';
 
 const Mysteve = () => {
   const Clubname="MYSTEVE" ;
@@ -41,6 +41,12 @@ const Mysteve = () => {
       description2: 'Storytelling through captivating photographs competitiojn (members will)',
 
     } ];
+    useEffect(()=>{
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    },[]);
     
     
   return (
