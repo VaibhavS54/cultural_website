@@ -3,7 +3,7 @@ import { Basic } from "../Clubs/Reveal";
 
 function About() {
   return (
-    <div className="bg-#202020" id="about">
+    <div className="bg-gradient-to-r from-gray-900 via-gray-900 to-gray-700" id="about">
       <Basic>
         <h1 className="  text-center text-3xl md:text-5xl lg:text-5xl text-3xl mt-20 mb-11 md:mt-32 md:mb-20  font-bold tracking-widest text-white text-left">
           ABOUT US
