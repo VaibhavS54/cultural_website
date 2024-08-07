@@ -16,7 +16,7 @@ function App() {
 
    
   return (
-    <><div className=" bg-black">
+    <><div className=" bg-gray-900">
       <Router>
       <Nav />
       
