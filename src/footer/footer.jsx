@@ -1,17 +1,70 @@
-import React from 'react'
-import Itemscontainer from './itemscontainer'
+import React from "react";
+import {
+  FaYoutube,
+  FaInstagram,
+  FaFacebook,
+  FaTwitter,
+  FaLinkedin,
+  FaGlobe,
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
+import logo1 from "../assests/ss.png";
+// import logo2 from "../assests/gstechnical.png";
+import logo3 from "../assests/collegelogo.png";
+// import Itemscontainer from './itemscontainer'
 
 import fb from "./icons/icons8-facebook-f-24 (2).png"
 import insta from "./icons/icons8-instagram-24.png"
 import linkedin from "./icons/icons8-linkedin-24 (1).png"
 import twitter from "./icons/icons8-twitter-24.png"
 
-
-
-
-const Footer=()=> {
-  return (
-    <footer className="relative object-bottom bottom-0 bg-#202020 text-white sm:w-full
+export default class Footer extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      data: [
+        {
+          Src: logo3,
+          Name: "IIITBH",
+          Designation:
+            "It is one of the IIITs set up by MHRD, Govt of India in PUBLIC-PRIVATE PARTNERSHIP(PPP) mode. It started functioning from the academic year 2017.",
+          Address:
+            "Bhagalpur College of Engineering Campus Sabour, Bhagalpur - 813210",
+          Link: [
+            { href: "https://www.iiitbh.ac.in/", icon: ( <FaGlobe className="hover:text-white transition-colors duration-300 ease-in-out"/> ), },
+            { href: "https://www.instagram.com/iiit_bhagalpur_official/", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "#", icon: ( <FaFacebook className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "#", icon: ( <FaTwitter className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "https://www.youtube.com/@iiitbhagalpur1412", icon: ( <FaYoutube className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "https://www.linkedin.com/company/technical-iiitbh/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+          ],
+        },
+        {
+          Src: logo1,
+          Name: "Dr. Sanjay Kumar",
+          Designation: "Cultural Coordinator",
+          Address: "Indian Institute of Information Technology, Bhagalpur",
+          Link: [
+            { href: "#", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "https://www.linkedin.com/in/dr-dhrubajyoti-bhattacharya-46a0a718/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+          ],
+        },
+        {
+          // Src: logo2,
+          Name: "Mr. BALA NAVEEN CHEEDI",
+          Designation: "G.S. Cultural",
+          Address: "Indian Institute of Information Technology, Bhagalpur",
+          Link: [
+            { href: "https://www.instagram.com/vv1maurya/", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "https://www.linkedin.com/in/vivek-kumar-470b98226/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+          ],
+        },
+      ],
+    };
+  }
+  render() {
+    return (
+      <footer className="relative object-bottom bottom-0 bg-#202020 text-white sm:w-full
     ">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 py-7 ">
       
@@ -23,29 +76,50 @@ const Footer=()=> {
         <img src={linkedin} alt="linkedin" className="cursor-pointer "/>
         <img src={twitter} alt="twitter" className="cursor-pointer "/>
 </div>
-       {/*} <div class="social-container"> 
-      <h3>Social Follow</h3>
- <a href="https://www.youtube.com/c/jamesqquick"
-        className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
-  </div>
-          <input type='text' placeholder='Enter name' className='text-gray-800 sm:w-72 w-full sm:mr-5 mr-1 lg:mb-0 mb-4 py-2.5 rounded px-2 focus:outline-none'>
-          </input>
-          <button className='bg-teal-400 hover:bg-teal-500 duration-300 px-5 py-2.5 font-[Poppins] rounded-md text-white md:w-auto w-full'>
-            Request code
-  </button>*/}
-  
-  </div>
-      <Itemscontainer></Itemscontainer>
-      <hr className='w-9/10 ml-4 mr-4 object-center'/>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 pt-2 text-gray-400 text-sm pb-8">
-        <span className='text-left ml-4'>All right reserved @2024, Artificium</span>
-      <span className='text-left mr-4 sm:text-right ml-4 lg:text-right ml-4'>Terms & conditions | Privacy Policy</span>
-      
-      </div>
-    </footer>
-  )
+</div>
+        <div className="flex justify-center items-center border-t py-5 border-neutral-700 ">
+          <div>
+            <div className="flex justify-center gap-[4vw] mx-[4vw] text-gray-500">
+              {this.state.data.map((item, index) => (
+                <div
+                  className="flex flex-col w-[28vw] gap-[1vw] text-center break-words"
+                  key={index}
+                >
+                  <div className="avatar flex justify-center pb-1">
+                    <div className="w-[8vw] rounded-full">
+                      <img src={item.Src} alt="/" />
+                    </div>
+                  </div>
+                  <div className="font-semibold text-xs sm:text-xl text-gray-300 from-gray-400 to-white">
+                    {item.Name}
+                  </div>
+                  <div className="text-xs">{item.Designation}</div>
+                  <div className="text-xs">{item.Address}</div>
+                  <div className="flex justify-center">
+                    <ul className="flex list-none text-left">
+                      {item.Link.map((item1, index1) => (
+                        <Link to={item1.href} target="_blank">
+                          <li className="mx-1" key={index1}>
+                            {item1.icon}
+                          </li>
+                        </Link>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="bg-black flex justify-center items-center py-3">
+          <p className="text-gray-500 text-xs text-center">
+            All rights reserved by Technical Board, Indian Institute of
+            Information Technology, Bhagalpur, 2024
+          </p>
+        </div>
+      </footer>
+    );
+  }
 }
 
-export default Footer;
+// export default Footer

@@ -23,7 +23,6 @@ function Gallery() {
     "https://swiperjs.com/demos/images/nature-6.jpg",
     "https://swiperjs.com/demos/images/nature-7.jpg",
     "https://swiperjs.com/demos/images/nature-8.jpg",
-    "https://swiperjs.com/demos/images/nature-9.jpg",
   ];
 
   return (
