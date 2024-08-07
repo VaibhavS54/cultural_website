@@ -12,8 +12,6 @@ const Nav = () => {
       {name:"HOME",link:'hero'},
       {name:"ABOUT US",link:"about"},
       {name:"CLUBS",link:"clubs"},
-      {name:"EVENTS",link:"events"},
-      {name:"CONTACT US",link:"footer"},
       {name:"GALLERY",link:"gallery"},
     ];
     let [open,setOpen]=useState(false);
