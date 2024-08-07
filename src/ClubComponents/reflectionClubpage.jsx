@@ -62,7 +62,9 @@ const ReflectionClubpage = () => {
       <Gallery/>
     <Secretary 
         people={reflection_leads}
-        events={reflection_events}/>
+        events={reflection_events}
+        events2={reflection_events}
+        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
         <InstaPost account="reflection_iiitbh"/>
         </div>

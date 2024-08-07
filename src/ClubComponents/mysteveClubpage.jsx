@@ -61,7 +61,9 @@ const Mysteve = () => {
       <AboutUs about_text={Club_text} />
     <Secretary 
         people={club_leads}
-        events={club_events}/>
+        events={club_events}
+        events2={club_events}
+       />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
         <InstaPost account="mysteve_iiitbh"/>
         </div>

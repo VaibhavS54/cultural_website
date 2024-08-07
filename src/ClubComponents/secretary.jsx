@@ -4,10 +4,12 @@ import Box1 from './secretarybox1'
 import Box2 from './Secretarybox2';
 import star1 from './star1.png'
 import star2 from './star2.png'
+import Past from './pastevents';
 
-const Secretary  = ({ people, events }) => {
+const Secretary  = ({ people, events ,events2  }) => {
     
   return (
+  <div classname="section">
     <div id='events' className="sec">
       <img src={star1} className='top-left-star1'/>
       <img src={star2} className='top-left-star2'/>
@@ -19,6 +21,12 @@ const Secretary  = ({ people, events }) => {
       <div className="events"></div>{events.map(event => (
         <Box2 key={event.id} event={event} />
       ))}
+    </div>
+    <img src={star1} className='top-left-star1'/>
+    <img src={star2} className='top-right-star2'/>
+    <div className="event2">{events2.map(event => (
+        <Past key={event.id} event={event} />
+      ))}</div>
     </div>
   )
 }

@@ -62,7 +62,9 @@ const Samwaad = () => {
       
     <Secretary 
         people={club_leads}
-        events={club_events}/>
+        events={club_events}
+        events2={club_events}
+        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
         <InstaPost account="samwaad_iiitbh"/>
         </div>
