@@ -6,7 +6,7 @@ import star3 from './star3.png';
 
 const Clubhome = ({Logo, ClubName, display_image, about1, about2}) => {
   return (
-    <div id="hero" className="min-h-screen  flex items-center justify-center p-4">
+    <div id="hero" className="min-h-screen  flex items-center justify-center p-4 bg-gradient-to-r from-blue-900 via-gray-900 to-black">
       <img src={star1} className="z-[100] absolute left-0 h-[7vh] w-[7vh] ml-[90vw] mt-[50vh]"></img>
       <img src={star2} className="z-[100] absolute left-0 h-[7vh] w-[7vh] ml-[90vw] mt-[-60vh]"></img>
       <img src={star3} className="z-[100] absolute left-0 h-[9vh] w-[9vh] ml-[20vw] mt-[-70vh]"></img>

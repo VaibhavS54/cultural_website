@@ -2,12 +2,14 @@ import React from 'react'
 import Reflection from './clubhome'
 import Secretary from './secretary';
 import InstaPost from '../InstaPost';
-import ClubLogo from './samwal final logo.jpg';
+import ClubLogo from '../assests/sargam logo.jpg';
 import image from './drum kit.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
 import AboutUs from './About';
 import { useEffect } from 'react';
+import image1 from '../assests/Sargam_Club-Sec _ Arnav Raj.jpg';
+import image2 from '../assests/sargam_incharge-Srishti Priya.jpg'
 
 
 const Sargam = () => {
@@ -19,16 +21,16 @@ const Sargam = () => {
     {
       id: 1,
       position:'Secretary',
-      image: 'https://i.pinimg.com/564x/c2/a1/18/c2a118b75a53cc7f95e2b0110e7e237b.jpg',
-      name: 'Simanta Mukhopadhyay',
+      image: image1,
+      name: 'Arnav Raj',
       contact: '123-456-7890',
       email: 'krati@example.com'
     },
     {
       id: 2,
       position:'In-charge',
-      image: 'https://i.pinimg.com/564x/96/a8/e9/96a8e9f314c0f0a50cfcc630b492bed4.jpg',
-      name: 'Manikant',
+      image: image2,
+      name: 'Srishti Priya',
       contact: '098-765-4321',
       email: '@example.com'
     }

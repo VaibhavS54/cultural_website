@@ -2,12 +2,14 @@ import React from 'react'
 import Reflection from './clubhome'
 import Secretary from './secretary';
 import InstaPost from '../InstaPost';
-import ClubLogo from './samwal final logo.jpg';
-import image from './drum kit.png';
+import ClubLogo from '../assests/cinemara logo.jpg';
+import image from './camera.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
 import AboutUs from './About';
 import { useEffect } from 'react';
+import image1 from '../assests/cinemara_secretary_Harsh.jpg';
+import image2 from '../assests/cinemara_incharge.jpeg';
 
 const Cinemara = () => {
   const Clubname="CINEMARA" ;
@@ -18,16 +20,16 @@ const Cinemara = () => {
     {
       id: 1,
       position:'Secretary',
-      image: 'https://i.pinimg.com/564x/c2/a1/18/c2a118b75a53cc7f95e2b0110e7e237b.jpg',
-      name: 'Simanta Mukhopadhyay',
+      image: image1,
+      name: 'Harsh',
       contact: '123-456-7890',
       email: 'krati@example.com'
     },
     {
       id: 2,
       position:'In-charge',
-      image: 'https://i.pinimg.com/564x/96/a8/e9/96a8e9f314c0f0a50cfcc630b492bed4.jpg',
-      name: 'Manikant',
+      image: image2,
+      name: 'Aditya Shirole',
       contact: '098-765-4321',
       email: '@example.com'
     }

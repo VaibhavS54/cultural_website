@@ -2,11 +2,13 @@ import React from 'react'
 import Reflection from './clubhome'
 import Secretary from './secretary';
 import InstaPost from '../InstaPost';
-import ClubLogo from './samwal final logo.jpg';
-import image from './drum kit.png';
-import Gallery from '../gallery/Gallery';
+import ClubLogo from '../assests/animeverse logo.png';
+import image from './country house.png';
+
 import Clubhome from './clubhome';
 import AboutUs from './About';
+import image1 from '../assests/animeverse_Secretary-Kaushal Shelke.jpg';
+import image2 from '../assests/animeverse_Incharge-Prince Kumar.jpg';
 import { useEffect } from 'react';
 
 const Animeverse = () => {
@@ -18,16 +20,16 @@ const Animeverse = () => {
     {
       id: 1,
       position:'Secretary',
-      image: 'https://i.pinimg.com/564x/c2/a1/18/c2a118b75a53cc7f95e2b0110e7e237b.jpg',
-      name: 'Simanta Mukhopadhyay',
+      image: image1,
+      name: 'Kaushal Shelke',
       contact: '123-456-7890',
       email: 'krati@example.com'
     },
     {
       id: 2,
       position:'In-charge',
-      image: 'https://i.pinimg.com/564x/96/a8/e9/96a8e9f314c0f0a50cfcc630b492bed4.jpg',
-      name: 'Manikant',
+      image: image2,
+      name: 'Prince Kumar',
       contact: '098-765-4321',
       email: '@example.com'
     }
