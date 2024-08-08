@@ -2,12 +2,14 @@ import React from 'react'
 import Reflection from './clubhome'
 import Secretary from './secretary';
 import InstaPost from '../InstaPost';
-import ClubLogo from './samwal final logo.jpg';
+import ClubLogo from '../assests/mysteve LOGO.jpg';
 import image from './paint brush.png';
 import Gallery from '../gallery/Gallery';
 import Clubhome from './clubhome';
 import AboutUs from './About';
 import { useEffect } from 'react';
+import image1 from '../assests/mysteve_Sec- Simanta Mukhopadhyay.jpg';
+import image2 from '../assests/mysteve_inchargw_manikant.jpg';
 
 const Mysteve = () => {
   const Clubname="MYSTEVE" ;
@@ -18,7 +20,7 @@ const Mysteve = () => {
     {
       id: 1,
       position:'Secretary',
-      image: 'https://i.pinimg.com/564x/c2/a1/18/c2a118b75a53cc7f95e2b0110e7e237b.jpg',
+      image: image1,
       name: 'Simanta Mukhopadhyay',
       contact: '123-456-7890',
       email: 'krati@example.com'
@@ -26,7 +28,7 @@ const Mysteve = () => {
     {
       id: 2,
       position:'In-charge',
-      image: 'https://i.pinimg.com/564x/96/a8/e9/96a8e9f314c0f0a50cfcc630b492bed4.jpg',
+      image: image2,
       name: 'Manikant',
       contact: '098-765-4321',
       email: '@example.com'
