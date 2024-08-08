@@ -1,16 +1,16 @@
 import React from 'react';
 import { Reveal, Reverse } from './Reveal';
 import Card from './ClubCards';
+import samwaad from '../assests/samwal final logo.jpg';
+import reflection from '../assests/Reflection Logo.png';
+import mysteve from '../assests/mysteve LOGO.jpg';
+import xpressions from '../assests/xpression_logo.jpg';
+import sargam from '../assests/sargam logo.jpg';
+import gyrate from '../assests/gyrate_logo.jpg';
+import cinemara from '../assests/cinemara logo.jpg';
+import animeverse from '../assests/animeverse logo.png';
 
-import Samwaad from '../ClubComponents/samwaadClubpage';
-import Sargam from '../ClubComponents/sargamClubpage';
-import Gyrate from '../ClubComponents/gyrateClubpage';
-import Cinemara from '../ClubComponents/cinemaraClubpage';
-import Animeverse from '../ClubComponents/animeverseClubpage';
-import ReflectionClubpage from '../ClubComponents/reflectionClubpage';
-import Xpressions from '../ClubComponents/xpressionClubpage';
-import Mysteve from '../ClubComponents/mysteveClubpage';
-import MainPage from '../MainPage';
+
 
 const cards = [
   {
@@ -18,24 +18,29 @@ const cards = [
     description: 'Reflection where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/reflection',
+    logo: reflection
   },
   {
     title: 'SAMWAAD',
     description: 'Samwaad where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/samwaad',
+    logo: samwaad
+    
   },
   {
     title: 'MYSTEVE',
     description: 'Mysteve where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/mysteve',
+    logo: mysteve
   },
   {
     title: 'XPRESSIONS',
     description: 'Xpressions where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/xpressions',
+    logo: xpressions
   },
 ];
 
@@ -45,24 +50,28 @@ const second = [
     description: '"Reflection" where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/sargam',
+    logo: sargam
   },
   {
     title: 'GYRATE',
     description: '"Gyrate" where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/gyrate',
+    logo: gyrate
   },
   {
     title: 'CINEMARA',
     description: '"Cinemara" where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/cinemara',
+    logo: cinemara
   },
   {
     title: 'ANIMEVERSE',
     description: '"Animeverse" where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/animeverse',
+    logo: animeverse
   },
 ];
 
