@@ -26,7 +26,7 @@ function Gallery() {
   ];
 
   return (
-    <div id="gallery" className=" px-10 mb-32">
+    <div id="gallery" className=" px-10 mb-32 p-20">
       <div className="text-5xl font-bold text-center text-white">GALLERY</div>
       <Swiper
         effect={"coverflow"}

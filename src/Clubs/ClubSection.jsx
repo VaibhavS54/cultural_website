@@ -1,7 +1,7 @@
 import React from 'react';
 import { Reveal, Reverse } from './Reveal';
 import Card from './ClubCards';
-import samwaad from '../assests/samwal final logo.jpg';
+// import samwaad from '../assests/samwal final logo.jpg';
 import reflection from '../assests/Reflection Logo.png';
 import mysteve from '../assests/mysteve LOGO.jpg';
 import xpressions from '../assests/xpression_logo.jpg';
@@ -9,7 +9,7 @@ import sargam from '../assests/sargam logo.jpg';
 import gyrate from '../assests/gyrate_logo.jpg';
 import cinemara from '../assests/cinemara logo.jpg';
 import animeverse from '../assests/animeverse logo.png';
-
+ 
 
 
 const cards = [
@@ -25,7 +25,7 @@ const cards = [
     description: 'Samwaad where every click tells a story, blending light, shadow, and emotion into captivating images.',
     buttonLabel: 'Read more',
     pagelink: '/samwaad',
-    logo: samwaad
+    // logo: samwaad
     
   },
   {
