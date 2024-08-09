@@ -46,7 +46,7 @@ export default class Footer extends React.Component {
           Address: "Indian Institute of Information Technology, Bhagalpur",
           Link: [
             { href: "#", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
-            { href: "https://www.linkedin.com/in/dr-dhrubajyoti-bhattacharya-46a0a718/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "#", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
           ],
         },
         {
@@ -55,7 +55,7 @@ export default class Footer extends React.Component {
           Designation: "G.S. Cultural",
           Address: "Indian Institute of Information Technology, Bhagalpur",
           Link: [
-            { href: "https://www.instagram.com/vv1maurya/", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "#", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
             { href: "https://www.linkedin.com/in/bala-naveen-cheedi-80584523a/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
           ],
         },
