@@ -10,6 +10,7 @@ import AboutUs from './About';
 import { useEffect } from 'react';
 import image1 from '../assests/mysteve_Sec- Simanta Mukhopadhyay.jpg';
 import image2 from '../assests/mysteve_inchargw_manikant.jpg';
+import Footer from '../footer/footer';
 
 const Mysteve = () => {
   const Clubname="MYSTEVE" ;
@@ -67,8 +68,10 @@ const Mysteve = () => {
         events2={club_events}
        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="mysteve_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

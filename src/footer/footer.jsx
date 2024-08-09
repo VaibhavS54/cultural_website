@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo1 from "../assests/ss.png";
-// import logo2 from "../assests/gstechnical.png";
+import logo2 from "../assests/gscultural.png";
 import logo3 from "../assests/collegelogo.png";
 // import Itemscontainer from './itemscontainer'
 
@@ -50,13 +50,13 @@ export default class Footer extends React.Component {
           ],
         },
         {
-          // Src: logo2,
+          Src: logo2,
           Name: "Mr. BALA NAVEEN CHEEDI",
           Designation: "G.S. Cultural",
           Address: "Indian Institute of Information Technology, Bhagalpur",
           Link: [
             { href: "https://www.instagram.com/vv1maurya/", icon: ( <FaInstagram className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
-            { href: "https://www.linkedin.com/in/vivek-kumar-470b98226/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
+            { href: "https://www.linkedin.com/in/bala-naveen-cheedi-80584523a/", icon: ( <FaLinkedin className="hover:text-white transition-colors duration-300 ease-in-out" /> ), },
           ],
         },
       ],

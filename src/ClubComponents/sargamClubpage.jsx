@@ -10,6 +10,7 @@ import AboutUs from './About';
 import { useEffect } from 'react';
 import image1 from '../assests/Sargam_Club-Sec _ Arnav Raj.jpg';
 import image2 from '../assests/sargam_incharge-Srishti Priya.jpg'
+import Footer from '../footer/footer';
 
 
 const Sargam = () => {
@@ -68,8 +69,10 @@ const Sargam = () => {
         events2={club_events}
        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="sargam_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

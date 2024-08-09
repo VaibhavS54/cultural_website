@@ -10,6 +10,7 @@ import AboutUs from './About';
 import { useEffect } from 'react';
 import image1 from '../assests/cinemara_secretary_Harsh.jpg';
 import image2 from '../assests/cinemara_incharge.jpeg';
+import Footer from '../footer/footer';
 
 const Cinemara = () => {
   const Clubname="CINEMARA" ;
@@ -66,8 +67,10 @@ const Cinemara = () => {
         events2={club_events}
         />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="cinemara_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

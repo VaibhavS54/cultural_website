@@ -10,6 +10,8 @@ import AboutUs from './About';
 import image1 from '../assests/animeverse_Secretary-Kaushal Shelke.jpg';
 import image2 from '../assests/animeverse_Incharge-Prince Kumar.jpg';
 import { useEffect } from 'react';
+import Footer from '../footer/footer';
+import Gallery from '../gallery/Gallery';
 
 const Animeverse = () => {
   const Clubname="ANIMEVERSE" ;
@@ -66,8 +68,10 @@ const Animeverse = () => {
         events2={club_events}
        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="reflection_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

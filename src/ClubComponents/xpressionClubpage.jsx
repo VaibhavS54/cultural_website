@@ -10,6 +10,7 @@ import AboutUs from './About';
 import { useEffect } from 'react';
 import image1 from '../assests/xpression_Aditya Vaibhav - sec.jpg';
 import image2 from '../assests/xpression_Neeraj Yadav - incharge.jpg';
+import Footer from '../footer/footer';
 
 const Xpressions = () => {
   const Clubname="Xpressions" ;
@@ -65,8 +66,10 @@ const Xpressions = () => {
         events={club_events}
         events2={club_events}/>
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="xpressionn_iiitbh"/>
         </div>
+      <Footer/>
     </div>
   )
 }

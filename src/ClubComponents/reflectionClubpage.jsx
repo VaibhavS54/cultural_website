@@ -9,6 +9,7 @@ import Clubhome from './clubhome';
 import AboutUs from './About';
 import image1 from '../assests/reflection_Sec- Minal Satankar.png';
 import image2 from '../assests/reflection_incharge- Shubham Kumar.jpg';
+import Footer from '../footer/footer';
 
 const ReflectionClubpage = () => {
   const Clubname="REFLECTION" ;
@@ -59,16 +60,18 @@ const ReflectionClubpage = () => {
       display_image={image}
       about1={Clubabout1}
       about2={Clubabout2}/>
+   
       <AboutUs about_text={Club_text} />
-      <Gallery/>
     <Secretary 
         people={reflection_leads}
         events={reflection_events}
         events2={reflection_events}
         />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="reflection_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

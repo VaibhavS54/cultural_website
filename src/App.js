@@ -10,13 +10,14 @@ import Xpressions from './ClubComponents/xpressionClubpage';
 import Mysteve from './ClubComponents/mysteveClubpage';
 import MainPage from "./MainPage";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from "./footer/footer";
 
 
 function App() {
 
    
   return (
-    <><div className=" bg-gray-900">
+    <><div className=" bg-black">
       <Router>
       <Nav />
       
@@ -32,6 +33,7 @@ function App() {
         <Route path="/mysteve" element={<Mysteve />} />
       </Routes>
     </Router>
+    
 
       
       

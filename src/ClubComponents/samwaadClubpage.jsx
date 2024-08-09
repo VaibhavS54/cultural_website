@@ -9,6 +9,7 @@ import { useEffect } from 'react';
 import AboutUs from './About';
 import image1 from '../assests/sa,mwaad_sec- Krati Bhardwaj.jpeg';
 import image2 from '../assests/samwaad_incharge- Riyaz Siddiqui.jpeg';
+import Footer from '../footer/footer';
 
 
 const Samwaad = () => {
@@ -68,8 +69,10 @@ const Samwaad = () => {
         events2={club_events}
         />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="samwaad_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }

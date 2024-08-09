@@ -10,6 +10,7 @@ import AboutUs from './About';
 import { useEffect } from 'react';
 import image1 from '../assests/gyrate_secretary_t himanshu.jpeg';
 import image2 from '../assests/gyrate_incharge_saikiran.jpg';
+import Footer from '../footer/footer';
 
 const Gyrate = () => {
   const Clubname="GYRATE" ;
@@ -66,8 +67,10 @@ const Gyrate = () => {
         events2={club_events}
        />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
+        <Gallery/>
         <InstaPost account="gyrate_iiitbh"/>
         </div>
+        <Footer/>
     </div>
   )
 }
