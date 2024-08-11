@@ -77,7 +77,7 @@ const second = [
 
 
 const ClubSection = () => (
-  <div id='clubs' style={{ backgroundImage: `url('./hello.png')` }} className="bg-gradient-to-r from-gray-900 via-gray-900 to-gray-700 md:bg-contain pb-11 mt-14 lg:mt-40 md:mb-20 lg:mb-24">
+  <div id='clubs' className="bg-gradient-to-r from-blue-900 via-gray-900 to-black md:bg-contain pb-11 pt-10">
     <Reverse>
       <h1 className="text-white flex justify-center md:text-5xl lg:text-5xl text-3xl font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
         ARTIFICIUM CLUBS

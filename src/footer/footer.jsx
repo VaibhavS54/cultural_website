@@ -64,8 +64,7 @@ export default class Footer extends React.Component {
   }
   render() {
     return (
-      <footer className="relative object-bottom bottom-0 bg-#202020 text-white sm:w-full
-    ">
+      <footer className="relative object-bottom bottom-0 bg-#202020 text-white sm:w-full bg-gradient-to-r from-blue-900 via-gray-900 to-black">
       <div className="md:flex md:justify-between md:items-center sm:px-12 px-4 py-7 ">
       
         <h1 className="lg:text-4xl text-4xl md:mb-0 mb-6 lg:leading-normal font-semibold md:w-4/5" ><span className="text-white font-rambla text-5xl italic leading-16 tracking-tighter cursor-default text-center 
@@ -111,7 +110,7 @@ export default class Footer extends React.Component {
             </div>
           </div>
         </div>
-        <div className="bg-black flex justify-center items-center py-3">
+        <div className="bg-black flex justify-center items-center py-3 bg-gradient-to-r from-blue-900 via-gray-900 to-black">
           <p className="text-gray-500 text-xs text-center">
             All rights reserved by Technical Board, Indian Institute of
             Information Technology, Bhagalpur, 2024

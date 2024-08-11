@@ -1,14 +1,16 @@
-// AboutUs.js
 import React from "react";
 import Ques from "./Ques.png";
 
 const AboutUs = ({about_text}) => {
   return (
-    <div id="about" className=" bg-#202020 text-white flex items-center justify-center min-h-screen p-5 bg-gradient-to-r from-blue-900 via-gray-900 to-black">
-      <div className="max-w-4xl flex flex-col md:flex-row items-center">
+    <div 
+      id="about" 
+      className="bg-[#202020] text-white flex items-center justify-center min-h-screen bg-gradient-to-r from-blue-900 via-gray-900 to-black"
+    >
+      <div className="max-w-6xl flex flex-col md:flex-row items-center p-4 md:p-8">
         <div className="text-center md:text-left md:w-2/3 p-2">
-          <h1 className="text-4xl font-bold mb-5">About Us</h1>
-          <p className="text-lg leading-relaxed mb-5">
+          <h1 className="text-3xl md:text-4xl font-bold mb-5">About Us</h1>
+          <p className="text-base md:text-lg leading-relaxed">
             {about_text}
           </p>
         </div>
@@ -16,7 +18,7 @@ const AboutUs = ({about_text}) => {
           <img
             src={Ques}
             alt="Question Mark"
-            className="w-48 h-48 md:w-64 md:h-64"
+            className="w-36 h-36 md:w-48 md:h-48 lg:w-64 lg:h-64"
           />
         </div>
       </div>

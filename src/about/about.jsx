@@ -3,14 +3,17 @@ import { Basic } from "../Clubs/Reveal";
 
 function About() {
   return (
-    <div style={{ backgroundImage: `url('./Vector.png')` }} className=" pb-20" id="about">
+    <div  
+      className="bg-cover bg-center bg-gradient-to-r from-blue-900 via-gray-900 to-black" 
+      id="about"
+    >
       <Basic>
-        <h1 className="  text-center text-3xl md:text-5xl lg:text-5xl text-3xl mt-20 mb-11 md:mt-32 md:mb-20  font-bold tracking-widest text-white text-left">
+        <h1 className="text-center text-3xl md:text-5xl lg:text-5xl mt-10 md:mt-20 mb-10 md:mb-20 font-bold tracking-widest text-white ">
           ABOUT US
         </h1>
       </Basic>
-      <div className="text-white text-xl text-left pl-24 pr-24">
-        <h3 className=" py-4 ">
+      <div className="text-white text-lg md:text-xl px-8 sm:px-12 md:px-24">
+        <h3 className="mb-6">
           <p>
             At Artificium, we believe in celebrating the vibrant tapestry of
             cultures that intertwine within our college community. Like a
@@ -20,8 +23,8 @@ function About() {
           </p>
         </h3>
 
-        <div className="summary2">
-          <h3 className=" py-4 ">
+        <div className="summary2 mb-6">
+          <h3 className="py-4">
             <p>
               From the soothing embrace of Nebula's melodies to the exhilarating
               energy of our festive celebrations and grand events, Artificium is
@@ -31,8 +34,8 @@ function About() {
             </p>
           </h3>
         </div>
-        <div className="summary3">
-          <h3 className=" py-4 ">
+        <div className="summary3 mb-6">
+          <h3 className="py-4">
             <p>
               Our diverse array of clubs ensures that there's something for
               everyone. Whether you're a cinephile craving the magic of the
@@ -44,7 +47,7 @@ function About() {
           </h3>
         </div>
         <div className="summary4">
-          <h3 className=" py-4 ">
+          <h3 className="py-4">
             <p>
               But the magic of Artificium doesn't stop there. Gyrte, Mysteve,
               AnimeVerse, Expression, and Samwaad Club offer even more
