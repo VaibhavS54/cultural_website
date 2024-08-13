@@ -2,12 +2,13 @@ import React from 'react';
 import star1 from './star1.png';
 import star2 from './star2.png';
 import star3 from './star3.png';
+import { Reveal2 } from '../Clubs/Reveal';
 
 const Clubhome = ({Logo, ClubName, display_image, about1, about2}) => {
   return (
     <div 
       id="hero" 
-      className="pt-44 flex flex-col items-center justify-center p-4 bg-gradient-to-r from-blue-900 via-gray-900 to-black"
+      className="pt-44 flex flex-col items-center justify-center p-4 "
     >
       <img 
         src={star1} 
@@ -33,13 +34,19 @@ const Clubhome = ({Logo, ClubName, display_image, about1, about2}) => {
               alt="Reflection Logo" 
               className="w-20 h-20 sm:w-32 sm:h-32 rounded-full bg-white p-2" 
             />
+            <Reveal2>
             <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold ml-0 md:ml-4 mt-4 md:mt-0">
               {ClubName}
             </h1>
+            </Reveal2>
           </div>
           <div className="text-lg sm:text-xl md:text-2xl mb-6">
+            <Reveal2>
             <p>{about1}</p>
+            </Reveal2>
+            <Reveal2>
             <p>{about2}</p>
+            </Reveal2>
           </div>
           <button 
             className="bg-white text-black px-4 sm:px-6 py-2 rounded-full font-bold hover:bg-gray-200 transition"

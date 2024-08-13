@@ -17,7 +17,7 @@ function App() {
 
    
   return (
-    <><div className=" bg-black">
+    <><div className=" overflow-x-hidden	">
       <Router>
       <Nav />
       

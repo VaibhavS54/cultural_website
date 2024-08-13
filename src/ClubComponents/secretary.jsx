@@ -9,7 +9,7 @@ import Past from './pastevents';
 const Secretary  = ({ people, events ,events2  }) => {
     
   return (
-  <div className="section bg-gradient-to-r from-blue-900 via-gray-900 to-black">
+  <div className="section">
     <div id='events' className="sec">
       <img src={star1} className='top-left-star1'/>
       <img src={star2} className='top-left-star2'/>

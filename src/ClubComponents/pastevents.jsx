@@ -1,16 +1,18 @@
 import React from 'react'
 import './secretarybox2.css'
+import { Reveal2 } from '../Clubs/Reveal'
 
 const Past = ({ event }) => {
   return (
     <div className='past'>
-      <h1>Past Events</h1><br/>
-     <span ><h4 className="b_head">{event.head1}</h4>
+      <Reveal2>
+      <h1>Past Events</h1></Reveal2><br/>
+      <Reveal2><span ><h4 className="b_head">{event.head1}</h4>
      <p className="b_desc">{event.description1}</p>
-     </span><br/>
-     <span ><h4 className="b_head">{event.head2}</h4>
+     </span></Reveal2><br/>
+     <Reveal2><span ><h4 className="b_head">{event.head2}</h4>
      <p className="b_desc">{event.description2}</p>
-     </span>
+     </span></Reveal2>
      
     </div>
   )

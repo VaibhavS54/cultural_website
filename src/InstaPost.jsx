@@ -51,7 +51,7 @@ const InstaPost = ({account}) => {
   
   
   
-  <div className='text-[white] min-w-screen flex justify-center items-center pl-24 bg-blue bg-gradient-to-r from-blue-900 via-gray-900 to-black'>
+  <div className='text-[white] min-w-screen flex justify-center items-center lg:pl-24 flex-col lg:flex-row'>
     <InstaDetail account={account}/>
     <div className='m-10 w-[306px] md:w-[612px] h-[336px] md:h-[672px] bg-black rounded-tl-[30px] rounded-tr-[30px] rounded-bl-[30px] rounded-br-[30px] '>
       <div className='h-[64px]  flex gap-[2px] mb-[2px]  '>

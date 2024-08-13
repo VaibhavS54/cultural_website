@@ -10,7 +10,13 @@ import AboutUs from './About';
 import image1 from '../assests/reflection_Sec- Minal Satankar.png';
 import image2 from '../assests/reflection_incharge- Shubham Kumar.jpg';
 import Footer from '../footer/footer';
-
+import mymy from '../assests/bg-img.svg'
+import circle from '../assests/circles.svg'
+import grad from '../assests/Group 2.svg'
+import eclipse from '../assests/Eclipse (2).svg';
+import wither from '../assests/Rectangle 29.svg';
+import eclipse2 from '../assests/Eclipse (3).svg';
+import bottomback from '../assests/Background.svg';
 const ReflectionClubpage = () => {
   const Clubname="REFLECTION" ;
   const Clubabout1="Reflection - where every click tells a story, blending light,";
@@ -50,18 +56,39 @@ const ReflectionClubpage = () => {
         behavior: 'smooth'
       });
     },[]);
+
+     const containerStyle = {
+    width: '100%',
+    height: '100%',
+    background: `url(${mymy}) no-repeat center center`,
+    backgroundSize: 'cover'
+  };
+  const firstStyle = {
+    width: '100vw',
+    height: '100%',
+    background: `url(${circle}) no-repeat center center`,
+    backgroundSize: 'cover',
+    backgroundSize: '150% 250%' // Adjust the size as needed
+  };
   return (
     
     <div className="min-h-screen bg-#202020">
-    
+    <div style={firstStyle}>
+      <img src={grad} className='absolute top-0 left-0 mix-blend-screen bg-#202020 z-[-1]'/>
       <Clubhome
       Logo={ReflectionLogo}
       ClubName={Clubname}
       display_image={image}
       about1={Clubabout1}
       about2={Clubabout2}/>
+      </div>
+   <div style={containerStyle}>
    
       <AboutUs about_text={Club_text} />
+      <img src={eclipse} className='absolute top-0 right-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={eclipse2} className='absolute top-[50rem] left-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={bottomback} className='absolute top-[90rem] right-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={wither} className='absolute top-[160rem] right-0 mix-blend-screen bg-#202020 z-[-1]'/>
     <Secretary 
         people={reflection_leads}
         events={reflection_events}
@@ -71,7 +98,9 @@ const ReflectionClubpage = () => {
         <Gallery/>
         <InstaPost account="reflection_iiitbh"/>
         </div>
+        </div>
         <Footer/>
+        
     </div>
   )
 }
