@@ -113,7 +113,7 @@ export default class Footer extends React.Component {
   }
   render() {
     return (
-      <footer className="bg-gradient-to-r from-blue-900 via-gray-900 to-black text-white w-full">
+      <footer className="bg-gray text-white w-full">
         <div className="flex flex-col md:flex-row md:justify-between items-center px-4 sm:px-12 py-7">
           <h1 className="text-4xl lg:text-5xl font-semibold italic text-center md:text-left mb-6 md:mb-0">
             <span className="font-rambla">Artificium</span>
