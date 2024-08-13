@@ -26,14 +26,23 @@ function Gallery() {
   ];
 
   return (
-    <div id="gallery" className=" px-10 p-20 ">
-      <div className="text-5xl font-bold text-center text-white">GALLERY</div>
+    <div id="gallery" className="px-4 p-10 md:px-10 md:p-20">
+      <div className="text-3xl md:text-5xl font-bold text-center text-white">GALLERY</div>
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        slidesPerView={2}
+        slidesPerView={1}
         loop={true}
+        breakpoints={{
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+    
+        }}
         coverflowEffect={{
           rotate: -25,
           stretch: 0,
