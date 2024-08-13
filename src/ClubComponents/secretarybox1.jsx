@@ -4,7 +4,7 @@ import { Reveal2 } from '../Clubs/Reveal';
 
 const Box1 = ({ person }) => {
     return (
-      <div className="box1 flex flex-col justify-center items-center lg:flex-row w-[100%] lg:w-[40vw] lg:justify-start">
+      <div className="box1 flex flex-col justify-center items-center lg:flex-row w-[100%] lg:h-[42vh] lg:w-[40vw] lg:justify-start">
         <div className="b_image w-[35%]   lg:w-[35%] flex flex-col justify-center items-center lg:items-start">
           <img src={person.image} alt={person.name} className='w-[100%] lg:w-[100%] h-[150px] lg:h-[auto] lg:w-[70%] h-[auto] lg-h-[100%]'/>
         </div>
