@@ -96,7 +96,7 @@ const ReflectionClubpage = () => {
         />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
         <Gallery/>
-        <InstaPost account="reflection_iiitbh"/>
+        {/*<InstaPost account="reflection_iiitbh"/>*/}
         </div>
         </div>
         <Footer/>

@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <div id="hero" className="w-full h-screen relative">
-      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-#202020 bg-opacity-40"></div>
       {isSmallScreen ? (
                 <img src={imageBg} className="w-full h-full object-cover" alt="background image" />
             ) : (

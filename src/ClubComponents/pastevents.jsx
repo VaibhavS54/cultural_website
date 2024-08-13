@@ -4,7 +4,7 @@ import { Reveal2 } from '../Clubs/Reveal'
 
 const Past = ({ event }) => {
   return (
-    <div className='past'>
+    <div className='past lg:h-[40vh] h-[auto] '>
       <Reveal2>
       <h1>Past Events</h1></Reveal2><br/>
       <Reveal2><span ><h4 className="b_head">{event.head1}</h4>

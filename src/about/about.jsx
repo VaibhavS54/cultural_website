@@ -1,12 +1,15 @@
 import React from "react";
 import { Basic } from "../Clubs/Reveal";
+import grides from '../assests/Vector.svg';
 
 function About() {
   return (
     <div  
-      className="bg-cover bg-center bg-gradient-to-r from-blue-900 via-gray-900 to-black" 
+      style={{backgroundImage:`url(${grides})`}}
+      className="bg-contain bg-center bg-#202020" 
       id="about"
     >
+      
       <Basic>
         <h1 className="text-center text-3xl md:text-5xl lg:text-5xl mt-10 md:mt-20 mb-10 md:mb-20 font-bold tracking-widest text-white ">
           ABOUT US

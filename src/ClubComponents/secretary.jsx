@@ -9,22 +9,24 @@ import Past from './pastevents';
 const Secretary  = ({ people, events ,events2  }) => {
     
   return (
-  <div className="section">
-    <div id='events' className="sec">
+  <div className="section flex flex-col justify-center items-center">
+    <div id='events' className="sec flex  justify-center items-center ">
       <img src={star1} className='top-left-star1'/>
       <img src={star2} className='top-left-star2'/>
       <img src={star1} className='top-right-star1'/>  
       <img src={star2} className='top-right-star2'/>
-      <div className="leads">{people.map(person => (
+      <div className='flex flex-col lg:flex-row '>
+      <div className="leads h-[auto] flex flex-col justify-center items-center lg:justify-start ">{people.map(person => (
         <Box1 key={person.id} person={person} />
       ))}</div>
-      <div className="events"></div>{events.map(event => (
+      <div className="events "></div>{events.map(event => (
         <Box2 key={event.id} event={event} />
       ))}
     </div>
+    </div>
     <img src={star1} className='top-left-star1'/>
     <img src={star2} className='top-right-star2'/>
-    <div className="event2">{events2.map(event => (
+    <div className="event2 lg:mt-[0px] mt-[30px] h-[auto]">{events2.map(event => (
         <Past key={event.id} event={event} />
       ))}</div>
     </div>

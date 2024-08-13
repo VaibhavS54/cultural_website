@@ -10,6 +10,13 @@ import AboutUs from './About';
 import image1 from '../assests/sa,mwaad_sec- Krati Bhardwaj.jpeg';
 import image2 from '../assests/samwaad_incharge- Riyaz Siddiqui.jpeg';
 import Footer from '../footer/footer';
+import mymy from '../assests/bg-img.svg'
+import circle from '../assests/circles.svg'
+import grad from '../assests/Group 2.svg'
+import eclipse from '../assests/Eclipse (2).svg';
+import wither from '../assests/Rectangle 29.svg';
+import eclipse2 from '../assests/Eclipse (3).svg';
+import bottomback from '../assests/Background.svg';
 
 
 const Samwaad = () => {
@@ -50,19 +57,37 @@ const Samwaad = () => {
         behavior: 'smooth'
       });
     },[]);
-    
+    const containerStyle = {
+      width: '100%',
+      height: '100%',
+      background: `url(${mymy}) no-repeat center center`,
+      backgroundSize: 'cover'
+    };
+    const firstStyle = {
+      width: '100vw',
+      height: '100%',
+      background: `url(${circle}) no-repeat center center`,
+      backgroundSize: 'cover',
+      backgroundSize: '150% 250%' // Adjust the size as needed
+    };
     
   return (
     <div className="min-h-screen bg-#202020">
-    
+    <div style={firstStyle}>
+    <img src={grad} className='absolute top-0 left-0 mix-blend-screen bg-#202020 z-[-1]'/>
       <Clubhome
       Logo={ClubLogo}
       ClubName={Clubname}
       display_image={image}
       about1={Clubabout1}
       about2={Clubabout2}/>
+      </div>
+      <div style={containerStyle}>
       <AboutUs about_text={Club_text} />
-      
+      <img src={eclipse} className='absolute top-0 right-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={eclipse2} className='absolute top-[50rem] left-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={bottomback} className='absolute top-[90rem] right-0 mix-blend-screen bg-#202020 z-[-1]'/>
+      <img src={wither} className='absolute top-[160rem] right-0 mix-blend-screen bg-#202020 z-[-1]'/>
     <Secretary 
         people={club_leads}
         events={club_events}
@@ -70,7 +95,8 @@ const Samwaad = () => {
         />
         <div className='min-h-screen min-w-0.5 overflow-hidden'>
         <Gallery/>
-        <InstaPost account="samwaad_iiitbh"/>
+        {/*<InstaPost account="samwaad_iiitbh"/>*/}
+        </div>
         </div>
         <Footer/>
     </div>

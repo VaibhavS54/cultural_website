@@ -9,7 +9,7 @@ import sargam from '../assests/sargam logo.jpg';
 import gyrate from '../assests/gyrate_logo.jpg';
 import cinemara from '../assests/cinemara logo.jpg';
 import animeverse from '../assests/animeverse logo.png';
- 
+import hello from './hello.png'; 
 
 
 const cards = [
@@ -77,7 +77,7 @@ const second = [
 
 
 const ClubSection = () => (
-  <div id='clubs' className="bg-gradient-to-r from-blue-900 via-gray-900 to-black md:bg-contain pb-11 pt-10">
+  <div id='clubs' style={{backgroundImage:`url(${hello})`}} className="bg-#202020 bg-no-repeat bg-center bg-cover md:bg-contain pb-11 pt-10">
     <Reverse>
       <h1 className="text-white flex justify-center md:text-5xl lg:text-5xl text-3xl font-bold tracking-widest mb-[0px] md:mb-[50px] mt-[40px]">
         ARTIFICIUM CLUBS

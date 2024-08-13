@@ -4,7 +4,7 @@ import { Reveal2 } from '../Clubs/Reveal'
 
 const Box2 = ({ event }) => {
   return (
-    <div className='box2'>
+    <div className='box2 w-[auto] lg:w-[50vw] m-[20px] lg:h-[90vh] h-[auto]'>
       <Reveal2>
       <h1>Upcoming Events</h1></Reveal2><br/>
       
